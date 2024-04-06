@@ -5,7 +5,7 @@ import { Tauri } from 'next/font/google'
 import { Nav, Footer } from '@components';
 
 export const metadata = {
-  title: "Cactus",
+  title: "Cactus House",
   description: "Discover the best Cactus plants in the world.",
 };
 

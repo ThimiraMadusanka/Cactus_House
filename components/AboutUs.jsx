@@ -1,7 +1,4 @@
-"use client"
-
-import Video from 'next-video';
-import about_us from '@videos/about_us.mp4'
+import Image from "next/image"
 
 const AboutUs = () => {
   return (
@@ -23,8 +20,13 @@ const AboutUs = () => {
                     care as seamless as possible. Whether you're a seasoned collector or new to the world of cacti, Cactus House 
                     is your ultimate source for all things cactus.
                 </p>
-                {/* Video */}
-                <Video src={about_us} />
+                <Image 
+                    src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?q=80&w=1949&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Group Photo"
+                    className="h-96 w-full object-cover object-center rounded-xl" 
+                    width={500}
+                    height={500}
+                />
             </div>
         </div>
     </section>
